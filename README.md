@@ -80,7 +80,7 @@ Would you like to know how to prevent this in the future?"
 
 🧰 Installation & Setup: 
 
-git clone https://github.com/yourusername/MediDiagnose.git
+git clone https://github.com/VedashreeTakle/MediDiagnose.git
 
 cd MediDiagnose
 
