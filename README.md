@@ -3,13 +3,13 @@
 # MediDiagnose 🩺💬
 AI Medical Assistant using Gemini API, Flask, MongoDB
 
-
+---
 
 🧠 _Overview_
 
 MediDiagnose is a smart, AI-powered medical assistant designed to help users identify possible illnesses based on symptoms and receive treatment suggestions. It combines the power of Google's Gemini API, a symptom similarity algorithm, and natural conversation flows to deliver accurate and personalized healthcare assistance.
 
-
+---
 
 💡 _Features_
 
@@ -25,7 +25,7 @@ MediDiagnose is a smart, AI-powered medical assistant designed to help users ide
 
 🌐 Web Interface (Flask): Simple and intuitive UI for interacting with the AI.
 
-
+---
 
 🏗️ _Tech Stack_
 Layer	Tools/Tech Used:
@@ -37,7 +37,7 @@ AI/ML	Gemini API, Cosine Similarity
 Database	MongoDB:
 ⚙️ How It Works
 
-
+---
 
 
 User Inputs Symptoms 🗣️
@@ -64,7 +64,7 @@ Data Storage 📁
 
 → Interactions are stored in MongoDB for record-keeping and analysis.
 
-
+---
 
 🧪 Sample Query
 
@@ -76,9 +76,11 @@ Suggested Treatment: Rest, warm fluids, throat lozenges...
 
 Would you like to know how to prevent this in the future?"
 
-
+---
 
 🧰 Installation & Setup: 
+
+```bash
 
 git clone https://github.com/VedashreeTakle/MediDiagnose.git
 
@@ -90,7 +92,8 @@ python app.py
 
 Make sure to set your Gemini API Key and MongoDB URI in .env or config.
 
-
+```
+---
 
 
 🛣️ Roadmap
@@ -103,7 +106,7 @@ Make sure to set your Gemini API Key and MongoDB URI in .env or config.
 
  Deploy using Docker & Render
 
- 
+ ---
 
 🤝 Contributing
 
