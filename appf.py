@@ -11,7 +11,7 @@ from sentence_transformers import SentenceTransformer
 app = Flask(__name__)
 
 # Configure Gemini API
-os.environ["GOOGLE_API_KEY"] = "AIzaSyDsOZDBtTqgMZu6j6u3WjMRkgYGyOfwwJ4"  # Replace with actual API key
+os.environ["GOOGLE_API_KEY"] = "Replace with actual API key"  # AIzaSyDsOZDBtTqgMZu6j6u3WjMRkgYGyOfwwJ4 
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 # Initialize Gemini model
